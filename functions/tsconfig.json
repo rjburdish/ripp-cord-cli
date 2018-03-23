@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["es6"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "target": "es6",
+    "strictNullChecks": true
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "files": ["./node_modules/@types/node/index.d.ts"]
+}

@@ -1,0 +1,9 @@
+{
+  "source": "dist/",
+  "functions": {
+    "predeploy": [
+      "yarn --prefix ./functions/dist run lint",
+      "npm --prefix $RESOURCE_DIR run build"
+    ]
+  }
+}
