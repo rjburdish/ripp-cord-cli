@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description":
     "Starter kit for a Node/Express GraphQL server hosted by GCP functions!",
+  "repository": "https://github.com/rjburdish/ripp-cord-cli",
   "scripts": {
     "clean": "rimraf ./dist/",
     "start:dev": "npm-run-all --parallel watch:dev serve:dev",
